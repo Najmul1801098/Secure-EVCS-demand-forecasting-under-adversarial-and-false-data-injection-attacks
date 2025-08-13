@@ -1,5 +1,5 @@
 # Secure-EVCS-demand-forecasting-under-adversarial-and-false-data-injection-attacks
-This repository contains code and data for forecasting EV charging demand, testing model performance under cyber-attacks (FGSM, BIM, scaling FDI), and applying adversarial training to improve resilience and accuracy. **The code will be published after the paper is accepted for publication.**
+The purpose of this repository is to provide code and data for forecasting electric vehicle (EV) charging demand, evaluating model performance under cyber-attacks (including FGSM, BIM, and scaling FDI), and implementing adversarial training to enhance resilience and accuracy. The manuscript titled "Secure Electric Vehicle Charging Station Demand Forecasting under Adversarial and False Data Injection Attacks," which is based on this project, is currently under review. Therefore, only the dataset and a few images are available at this time. **The code and trained models will be published once the paper has been accepted for publication.**
 
 
 ## **Dataset**  

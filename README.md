@@ -7,7 +7,7 @@ The purpose of this repository is to provide code and data for forecasting elect
 
   
 <p align="center">
-  <img src="Images/EVCS_station.png" width="600" alt="EVCS Charging Station">
+  <img src="Images/EVCS_station.png" width="400" alt="EVCS Charging Station">
 </p>
 
 

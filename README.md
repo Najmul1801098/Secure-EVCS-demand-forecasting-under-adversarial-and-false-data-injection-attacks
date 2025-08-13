@@ -41,7 +41,8 @@ This code is compatible with Python 3.8+ and uses the following main dependencie
 - **Scikit-learn** version 1.2.2  
 - **CatBoost** version 1.2.4  
 - **Keras** version 2.12.0  
-- **TensorFlow** version 2.12.0 (for Keras backend) 
+- **TensorFlow** version 2.12.0 (for Keras backend)
+
 The remainder of the dependencies are standard Python packages and may come pre-installed with distributions like Anaconda.
 
 

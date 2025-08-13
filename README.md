@@ -9,7 +9,22 @@ The purpose of this repository is to provide code and data for forecasting elect
 ![EVCS Charging Station](Images/EVCS_station.png)
 
 
-## **Installation & Usage**  
+## **Installation**  
+
+This code is compatible with Python 3.8+ and uses the following main dependencies:
+
+- **Pandas** version 1.5.3  
+- **NumPy** version 1.24.3  
+- **Matplotlib** version 3.7.1  
+- **Seaborn** version 0.12.2  
+- **Scikit-learn** version 1.2.2  
+- **CatBoost** version 1.2.4  
+- **Keras** version 2.12.0  
+- **TensorFlow** version 2.12.0 (for Keras backend) 
+The remainder of the dependencies are standard Python packages and may come pre-installed with distributions like Anaconda.
+
+
+
 1. **Clone the Repository:**  
    
 bash

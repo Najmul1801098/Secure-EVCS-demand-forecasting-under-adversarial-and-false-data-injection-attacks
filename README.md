@@ -1,6 +1,6 @@
 # Secure-EVCS-demand-forecasting-under-adversarial-and-false-data-injection-attacks
 ## **Authors**  
-[Najmul Alam](www.linkedin.com/in/najmul-alam-ruet);
+[Najmul Alam](https://orcid.org/0009-0000-5490-8178);
 [M. A. Rahman](https://orcid.org/0000-0003-0864-4882);
 [Md. Arafat Hossain](https://orcid.org/0000-0002-0528-997X);
 [Md. Rashidul Islam](https://orcid.org/0000-0001-8415-0206)

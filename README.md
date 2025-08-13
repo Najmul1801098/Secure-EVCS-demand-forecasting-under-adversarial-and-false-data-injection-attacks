@@ -1,4 +1,8 @@
 # Secure-EVCS-demand-forecasting-under-adversarial-and-false-data-injection-attacks
+
+
+
+## **Introduction**  
 The purpose of this repository is to provide code and data for forecasting electric vehicle (EV) charging demand, evaluating model performance under cyber-attacks (including FGSM, BIM, and scaling FDI), and implementing adversarial training to enhance resilience and accuracy. The manuscript titled "Secure Electric Vehicle Charging Station Demand Forecasting under Adversarial and False Data Injection Attacks," which is based on this project, is currently under review. Therefore, only the dataset and a few images are available at this time. **The code and trained models will be published once the paper has been accepted for publication.**
 
 
@@ -44,6 +48,12 @@ This code is compatible with Python 3.8+ and uses the following main dependencie
 - **TensorFlow** version 2.12.0 (for Keras backend)
 
 The remainder of the dependencies are standard Python packages and may come pre-installed with distributions like Anaconda.
+
+## **Authors**  
+[Najmul Alam](www.linkedin.com/in/najmul-alam-ruet)
+[M. A. Rahman](https://orcid.org/0000-0003-0864-4882)
+[Md. Arafat Hossain](https://orcid.org/0000-0002-0528-997X)
+[Md. Rashidul Islam](https://orcid.org/0000-0001-8415-0206)
 
 
 

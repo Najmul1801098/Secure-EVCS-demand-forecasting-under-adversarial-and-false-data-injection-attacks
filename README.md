@@ -10,6 +10,36 @@ The purpose of this repository is to provide code and data for forecasting elect
   <img src="Images/EVCS_station.png" width="400" alt="EVCS Charging Station">
 </p>
 
+## Attacks
+
+This project considers three types of attacks on EVCS demand forecasting models:
+
+1. **Fast Gradient Sign Method (FGSM)**  
+   - **Description:** A gradient-based adversarial attack that perturbs input data in the direction of the gradient to maximize the model’s prediction error.  
+   - **Equation:**  
+   \[
+   X_{adv} = X + \epsilon \cdot \text{sign}(\nabla_X J(\theta, X, y))
+   \]  
+   where \(X\) is the original input, \(\epsilon\) is the attack strength, \(J\) is the loss function, and \(\theta\) are the model parameters.
+
+2. **Basic Iterative Method (BIM)**  
+   - **Description:** An iterative version of FGSM that applies small perturbations multiple times to increase the attack’s effectiveness.  
+   - **Equation:**  
+   \[
+   X_0^{adv} = X, \quad X_{n+1}^{adv} = \text{Clip}_{X,\epsilon} \{ X_n^{adv} + \alpha \cdot \text{sign}(\nabla_X J(\theta, X_n^{adv}, y)) \}
+   \]  
+   where \(\alpha\) is the step size per iteration and \(\text{Clip}\) keeps the perturbation within \(\epsilon\).
+
+3. **Scaling-based False Data Injection (FDI)**  
+   - **Description:** A data manipulation attack that scales certain input values by a factor to inject false readings into the dataset.  
+   - **Equation:**  
+   \[
+   X_{attacked} = X \cdot \text{scale\_factor}
+   \]  
+   where \(\text{scale\_factor}\) controls the intensity of the attack.
+
+
+
 
 ## **Installation**  
 
